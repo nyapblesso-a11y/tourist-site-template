@@ -12,7 +12,7 @@ function Navigation() {
           <ul>
             <li onClick={() => navigate("/")}>Home</li>
             <li onClick={() => navigate("/about_us")}>About</li>
-            <li onClick={() => navigate("/packages")}>Tour Package</li>
+            <li onClick={() => navigate("/packages")}>Tour-Package</li>
             <li onClick={() => navigate("/gallery")}>Gallery</li>
             <li onClick={() => navigate("/contact_us")}>Contact us</li>
           </ul>

@@ -8,7 +8,6 @@ _* {
   flex-direction: row;
   justify-content: space-between;
   padding: 3rem;
-  
 }
 
 .nav-bar {
@@ -22,6 +21,7 @@ _* {
   flex-direction: row;
   gap: 2rem;
   margin-top: 2rem;
+  color: #304F47;
 }
 
 .nav-bar ul li {
@@ -31,18 +31,29 @@ _* {
 }
 
 .nav-bar ul li:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.button {
-    margin-top: 1.5rem;
-}
+.
 
-.btn {
-    width: 8rem;
-    height: 3rem;
-    background-color: #C7923E;
-    border: 0.4px solid;
-    border-radius: 7px;
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: -3rem;
+  }
+
+  .nav-bar ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 10px;
+  }
+
+  .btn {
+    width: 1rem;
+    height: 1rem;
+  }
 }
