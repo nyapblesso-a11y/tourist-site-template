@@ -1,0 +1,48 @@
+_* {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+  
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.nav-bar ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    width: 8rem;
+    height: 3rem;
+    background-color: #C7923E;
+    border: 0.4px solid;
+    border-radius: 7px;
+}
