@@ -1,0 +1,12 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.media {
+ background-color: #304f47;
+ padding: 20px;
+ font-family: lora;
+ height: 50px;
+}
