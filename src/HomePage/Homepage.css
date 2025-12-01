@@ -8,6 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  position: relative;
+
   /* background-color: #304f4780; */
 }
 
@@ -42,17 +44,21 @@
 
 @media screen and (max-width: 650px) {
   .home-image {
-    height: 60vh;
+    height: 80vh;
   }
   .hero h1 {
     font-size: 40px;
     font-weight: 700px;
-    transform: translateY(-4rem);
+    transform: translateY(-5rem);
   }
 
   .hero p {
     font-size: 20px;
-    transform: translateY(-4rem);
+    transform: translateY(-5rem);
+  }
+
+  .backBtn {
+    transform: translateY(-5rem);
   }
 
   .backBtn img {
@@ -61,8 +67,60 @@
   }
 }
 
-
 .search {
-  background-color: #304F47;
+  background-color: #304f47;
   height: 88px;
+  width: 80%;
+  margin:  auto;
+  border-radius: 10px;
+  transform: translateY(-3rem);
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0.8rem;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 15rem;
+  font-size: small;
+  justify-content: space-around;
+  height: 3rem;
+}
+
+.item-guest p {
+  color: #9a9ab0;
+}
+
+.date {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0.5rem;
+}
+
+.home-text {
+
+}
+
+
+.home-text p {
+    color: #C7923E;
+    text-align: center;
+    font-size: 50px;
+}
+
+.home-text h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 2rem;
 }

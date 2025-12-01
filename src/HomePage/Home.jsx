@@ -27,27 +27,27 @@ function Home() {
 
       <div className="search">
         <div className="items">
-          <div className="imput">
+          <div className="input">
             <p>Search activities or destinations</p>
             <img src="./search.svg" alt="search" />
           </div>
 
           <div className="item-guest">
-            <span>guest</span>
+            <p>guest</p>
             <div className="date">
               <span>2 Adult</span>
               <img src="./dropdown.svg" alt="" />
             </div>
           </div>
           <div className="item-guest">
-            <span>Date</span>
+            <p>Date</p>
             <div className="date">
               <span>12-13 April 2021</span>
               <img src="./dropdown.svg" alt="" />
             </div>
           </div>
           <div className="item-guest">
-            <span>package</span>
+            <p>package</p>
             <div className="date">
               <span>All</span>
               <img src="./dropdown.svg" alt="" />
@@ -58,6 +58,11 @@ function Home() {
             Book Now
           </button>
         </div>
+      </div>
+
+      <div className="home-text">
+        <p>Chose your package</p>
+        <h1>Select your best package <br /> for yout travel</h1>
       </div>
     </>
   );

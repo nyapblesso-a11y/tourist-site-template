@@ -2,8 +2,8 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-button {
-  margin-top: 1.5rem;
+.button {
+  margin-top: 1rem;
 }
 
 .btn {
