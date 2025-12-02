@@ -57,7 +57,7 @@ function PackageComponent() {
           <img src="./Image (1).svg" alt="" />
 
           <div className="text">
-            <h6>Akagera National Park</h6>
+            <h1>Akagera National Park</h1>
             <p>
               Visitors to Akagera National Park can take <br /> part in a range
               of activities, <br /> including game drives, boat safaris, <br />{" "}

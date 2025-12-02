@@ -67,12 +67,114 @@ function Home() {
       </div>
 
       <PackageComponent />
-
       <div className="home-text">
         <p>Popular Destinations</p>
         <h1>
           Select Our Best Popular <br /> Destinations
         </h1>
+      </div>
+
+      <div className="scroll-icon">
+        <img src="./Button.svg" alt="" />
+        <img src="./Button (1).svg" alt="" />
+      </div>
+      <div className="destination">
+        <div className="destination-items">
+          <img src="./Image (4).svg" alt="" />
+
+          <div className="text">
+            <h1>Kigali</h1>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br /> consectetur adipiscing elit. <br /> Volutpat elit sed
+              pretium, <br /> egestas sed sit.
+            </p>
+          </div>
+        </div>
+        <div className="destination-items">
+          <img src="./Image (5).svg" alt="" />
+
+          <div className="text">
+            <h1>Huye</h1>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br /> consectetur adipiscing elit. <br /> Volutpat elit sed
+              pretium, <br /> egestas sed sit.
+            </p>
+          </div>
+        </div>
+        <div className="destination-items">
+          <img src="./Image (6).svg" alt="" />
+
+          <div className="text">
+            <h1>Rubavu</h1>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br /> consectetur adipiscing elit. <br /> Volutpat elit sed
+              pretium, <br /> egestas sed sit.
+            </p>
+          </div>
+        </div>
+        <div className="destination-items">
+          <img src="./Image (7).svg" alt="" />
+
+          <div className="text">
+            <h1>Musanze</h1>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br /> consectetur adipiscing elit. <br /> Volutpat elit sed
+              pretium, <br /> egestas sed sit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="home-text">
+        <p>Why us?</p>
+        <h1>
+          Why Travel with Africa <br /> wizzy Safari
+        </h1>
+      </div>
+      <div className="Us">
+        <div className="chose-us">
+          <div className="us-item">
+            <img src="./car.svg" alt="" />
+            <p>
+              100+ tours around <br /> Rwanda
+            </p>
+          </div>
+        </div>
+
+        <div className="chose-us">
+          <div className="us-item">
+            <img src="./circle.svg" alt="" />
+            <p>
+              00% Trusted travel <br /> agency
+            </p>
+          </div>
+        </div>
+
+        <div className="chose-us">
+          <div className="us-item">
+            <img src="./calender.svg" alt="" />
+            <p>
+              10 years of travel <br /> experience
+            </p>
+          </div>
+        </div>
+
+        <div className="chose-us">
+          <div className="us-item">
+            <img src="./like.svg" alt="" />
+            <p>
+              90% of travelors <br /> are happy
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="home-text">
+        <p>Our Traveller Say</p>
+        <h1>What our clients say <br />about us </h1>
       </div>
     </>
   );
