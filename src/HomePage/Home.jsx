@@ -2,6 +2,7 @@ import React from "react";
 import Media from "../components/Media/Media";
 import Navigation from "../components/Navigation/Navigation";
 import "./Homepage.css";
+import PackageComponent from "../components/PackagesComponent/PackageComponent";
 
 function Home() {
   return (
@@ -54,15 +55,24 @@ function Home() {
             </div>
           </div>
 
-          <button className="btn">
-            Book Now
-          </button>
+          <button className="btn">Book Now</button>
         </div>
       </div>
 
       <div className="home-text">
         <p>Chose your package</p>
-        <h1>Select your best package <br /> for yout travel</h1>
+        <h1>
+          Select your best package <br /> for yout travel
+        </h1>
+      </div>
+
+      <PackageComponent />
+
+      <div className="home-text">
+        <p>Popular Destinations</p>
+        <h1>
+          Select Our Best Popular <br /> Destinations
+        </h1>
       </div>
     </>
   );
