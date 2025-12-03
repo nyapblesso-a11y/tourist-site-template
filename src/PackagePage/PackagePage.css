@@ -17,7 +17,7 @@
 }
 
 .hero-sec h1 {
-    font-size: 66px;
+  font-size: 66px;
 }
 
 .head-text h2 {
@@ -32,4 +32,13 @@ span {
   display: flex;
   gap: 1rem;
   color: #c7923e;
+}
+
+.scroll-bar {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem;
 }

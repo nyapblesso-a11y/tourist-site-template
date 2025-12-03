@@ -3,6 +3,7 @@ import Media from "../components/Media/Media";
 import Navigation from "../components/Navigation/Navigation";
 import "./PackagePage.css";
 import PackageComponent from "../components/PackagesComponent/PackageComponent";
+import Footer from "../components/Footer/Footer";
 function Package() {
   return (
     <>
@@ -31,6 +32,13 @@ function Package() {
 
         <PackageComponent />
         <PackageComponent />
+
+        <div className="scroll-bar">
+          <img src="./Button.svg" alt="" />
+          <img src="./Button (1).svg" alt="" />
+        </div>
+
+        <Footer/>
       </div>
     </>
   );
