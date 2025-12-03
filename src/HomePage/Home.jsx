@@ -3,6 +3,7 @@ import Media from "../components/Media/Media";
 import Navigation from "../components/Navigation/Navigation";
 import "./Homepage.css";
 import PackageComponent from "../components/PackagesComponent/PackageComponent";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
   return (
@@ -149,7 +150,7 @@ function Home() {
           <div className="us-item">
             <img src="./circle.svg" alt="" />
             <p>
-              00% Trusted travel <br /> agency
+              100% Trusted travel <br /> agency
             </p>
           </div>
         </div>
@@ -174,8 +175,59 @@ function Home() {
       </div>
       <div className="home-text">
         <p>Our Traveller Say</p>
-        <h1>What our clients say <br />about us </h1>
+        <h1>
+          What our clients say <br />
+          about us{" "}
+        </h1>
       </div>
+      <div className="client-section">
+        <div className="client">
+          <div className="image">
+            <img src="./photo.svg" alt="" />
+          </div>
+          <h5>Emma Waston</h5>
+
+          <p>
+            I recently went on a tour with <br />
+            XYZ Tourism Company and was
+            <br /> extremely impressed with the <br /> level of professionalism
+            and <br />
+            organization.
+          </p>
+        </div>
+        <div className="client">
+          <div className="image">
+            <img src="./photo.svg" alt="" />
+          </div>
+     <h5>Emma Waston</h5>
+          <p>
+            I recently went on a tour with <br />
+            XYZ Tourism Company and was
+            <br /> extremely impressed with the <br /> level of professionalism
+            and <br />
+            organization.
+          </p>
+        </div>
+        <div className="client">
+          <div className="image">
+            <img src="./photo.svg" alt="" />
+          </div>
+          <h5>Emma Waston</h5>
+          <p>
+            I recently went on a tour with <br />
+            XYZ Tourism Company and was
+            <br /> extremely impressed with the <br /> level of professionalism
+            and <br />
+            organization.
+          </p>
+        </div>
+      </div>
+
+      <div className="img-scroll">
+        <img src="./Group 19.svg" alt="" />
+      </div>
+
+      <Footer/>
     </>
   );
 }
