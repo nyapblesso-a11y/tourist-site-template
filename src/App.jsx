@@ -5,10 +5,12 @@ import AboutUs from "./AboutUsPAge/AboutUs";
 import Package from "./PackagePage/Package";
 import Gallery from "./GalleryPage/Gallery";
 import ContactUs from "./ContactUsPage/ContactUs";
+import Navigation from "./components/Navigation/Navigation";
 function App() {
   return (
     <>
-      <BrowserRouter>
+    {/* <Navigation/> */}
+       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about_us" element={<AboutUs/>} />
@@ -16,7 +18,7 @@ function App() {
           <Route  path="/gallery" element= {<Gallery/>}/>
           <Route  path="/contact_us" element={<ContactUs/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
     </>
   );
 }

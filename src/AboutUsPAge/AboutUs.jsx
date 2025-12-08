@@ -14,7 +14,7 @@ function AboutUs() {
           <div className="about">
             <h1>
               We are dedicated to <br /> providing the best <br />
-              travel experience.
+              travel experience
             </h1>
             <span>Discover the Land of a Thousand Hills</span>
             <div className="search1">

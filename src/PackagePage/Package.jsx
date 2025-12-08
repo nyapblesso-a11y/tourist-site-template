@@ -14,7 +14,7 @@ function Package() {
           <h1>Tour Package</h1>
           <div className="head-text">
             <h2>
-              <h4>Home</h4>
+              <p>Home</p>
               <span>
                 <img src="./Vector (5).svg" alt="" />
                 Tour Package

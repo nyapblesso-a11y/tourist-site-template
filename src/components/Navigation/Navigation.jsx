@@ -1,9 +1,9 @@
 import React from "react";
 import "./navigation.css";
 import { useNavigate } from "react-router-dom";
-
 function Navigation() {
   const navigate = useNavigate();
+
   return (
     <>
       <div className="navigation">
@@ -25,5 +25,5 @@ function Navigation() {
     </>
   );
 }
-
 export default Navigation;
+

@@ -117,18 +117,19 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  border: #304F4733 1px solid;
+  border: #304f4733 1px solid;
   padding: 1rem;
-  width: 300px;
+  width: 200px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-   box-shadow: 8px 3px 5px 1px#aaaaaa
+  box-shadow: 8px 3px 5px 1px#aaaaaa;
+
 }
 
 .socials h3,
 .Socials h3 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .socials img {
@@ -144,7 +145,7 @@ textarea::placeholder {
 }
 
 .icon img {
-  width: 10px;
+  height: 10px;
 }
 
 .phones,
@@ -152,6 +153,7 @@ textarea::placeholder {
   display: flex;
   flex-direction: row;
   gap: 0.8rem;
+
 }
 
 .phones span,
@@ -162,4 +164,26 @@ textarea::placeholder {
 .icons p {
   color: #304f47;
   line-height: 1.5rem;
+}
+
+@media (max-width: 845px) {
+  .name-sec {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 375px) {
+  .first-name input,
+  .last-name input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 620px) {
+ .social-medias {
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+ }
+
+
 }
