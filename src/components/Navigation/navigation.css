@@ -3,7 +3,7 @@ _* {
   margin: 0;
 }
 
-.navigation {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,10 +35,74 @@ _* {
   cursor: pointer;
 }
 
-.menu-btn {
+.navbar .toggle-icon {
   display: none;
 }
 
+@media (max-width: 769px) {
+  .navbar {
+    position: relative;
+    transition: 0.5s height ease-in-out;
+  }
+
+  .navbar.expanded {
+    height: 80vh;
+  }
+
+  .navbar.navbar.expanded .links {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #304f47;
+  }
+
+  .navbar.navbar.expanded .btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar.navbar.expanded .links li {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #304f47;
+  }
+
+  .nav-bar img {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+  }
+
+  .navbar .toggle-icon {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: #5e5a5a;
+    justify-content: end;
+  }
+
+  .nav-bar ul {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+/* 
 @media (max-width: 650px) {
   .navigation {
     display: flex;
@@ -86,4 +150,4 @@ _* {
   .btn {
     transform: translateY(-55px);
   }
-}
+} */
