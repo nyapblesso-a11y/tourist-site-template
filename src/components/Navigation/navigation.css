@@ -93,6 +93,10 @@ _* {
     justify-content: end;
   }
 
+    .navbar .toggle-icon:hover {
+      cursor: pointer;
+    }
+
   .nav-bar ul {
     display: none;
   }
