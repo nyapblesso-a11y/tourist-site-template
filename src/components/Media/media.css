@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.media {
+  background-color: #304f47;
+  padding: 20px;
+  font-family: lora;
+  display: flex;
+  justify-content: space-around;
+}
+
+.group {
+  flex-direction: row;
+  gap: 10px;
+  display: flex;
+  height: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .group, .social-media {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
