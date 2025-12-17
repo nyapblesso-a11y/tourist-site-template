@@ -37,6 +37,10 @@ function Navigation() {
           )}
         </div>
       </div>
+
+    <button>
+      restart
+    </button>
     </>
   );
 }
