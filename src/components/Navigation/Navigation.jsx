@@ -30,7 +30,11 @@ function Navigation() {
         </div>
 
         <div className="toggle-icon" onClick={handleToggle}>
-          {toggle ? <FiX size={40}  className="icons"/> : <FiMenu size={40}  className="icons"/>}
+          {toggle ? (
+            <FiX size={40} className="icons" />
+          ) : (
+            <FiMenu size={40} className="icons" />
+          )}
         </div>
       </div>
     </>

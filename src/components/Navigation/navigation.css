@@ -39,7 +39,7 @@ _* {
   display: none;
 }
 
-@media (max-width:769px) {
+@media screen and (max-width:768px) {
   .navbar {
     position: relative;
     transition: 0.5s height ease-in-out;
@@ -49,7 +49,7 @@ _* {
     height: 80vh;
   }
 
-  .navbar.navbar.expanded .links {
+  .navbar.navbar.expanded .nav-bar .links {
     position: absolute;
     top: 50px;
     left: 0;
@@ -61,7 +61,7 @@ _* {
     color: #304f47;
   }
 
-  .navbar.navbar.expanded.btn {
+  .navbar.navbar-expanded .btn {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -72,7 +72,7 @@ _* {
     align-items: center;
   }
 
-  .navbar.navbar.expanded.links li {
+  .navbar.navbar.expanded .nav-bar .links li {
     margin: 15px 0;
     font-size: 20px;
     color: #304f47;
@@ -105,5 +105,4 @@ _* {
     display: none;
   }
 }
-
 
